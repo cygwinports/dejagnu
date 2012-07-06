@@ -3,3 +3,5 @@ HOMEPAGE="http://www.gnu.org/software/dejagnu/"
 SRC_URI="mirror://gnu/${PN}/${P}.tar.gz"
 
 DIFF_EXCLUDES="calc.h.in"
+
+DEPEND="tcl(Expect)"
