@@ -2,7 +2,6 @@ NAME="dejagnu"
 VERSION=1.5
 RELEASE=1
 CATEGORY="Devel"
-REQUIRES="bash coreutils expect sed"
 SUMMARY="Automatic program testing framework"
 DESCRIPTION="DejaGnu is a framework for testing other programs. Its purpose is
 to provide a single front end for all tests. Think of it as a custom library of
@@ -16,3 +15,5 @@ SRC_URI="mirror://gnu/${PN}/${P}.tar.gz"
 DIFF_EXCLUDES="calc.h.in"
 
 DEPEND="tcl(Expect)"
+
+REQUIRES="expect"
