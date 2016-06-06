@@ -12,6 +12,8 @@ harness. DejaGnu is written in Expect, which in turn uses Tcl."
 HOMEPAGE="http://www.gnu.org/software/dejagnu/"
 SRC_URI="mirror://gnu/${PN}/${P}.tar.gz"
 
+ARCH=noarch
+
 DIFF_EXCLUDES="calc.h.in"
 
 DEPEND="tcl(Expect)"
